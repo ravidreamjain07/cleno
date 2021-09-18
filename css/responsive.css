@@ -1,0 +1,171 @@
+@media(max-width: 1075px){
+    .nav-right {
+        width: calc(100% - 150px);
+    }
+}
+@media(max-width: 1365px){
+    nav.menu > ul > li > a{ padding: 10px 5px; }
+
+}
+
+@media(max-width: 1170px){
+
+.foo-col-1 p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.foo-col-2 li a, .foo-col-2 li b, .foo-col-2 li {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+}
+
+@media(max-width: 991px){
+    .account-link {
+        position: absolute;
+        top: 10px;
+        right: 55px;
+    }
+    .menu-bar {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #0e0e4c;
+        text-align: center;
+        padding: 100px 30px 30px;
+        display: none;
+        z-index: 99;
+    }
+
+    nav.menu>ul>li {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    nav.menu>ul>li>a {
+        margin: 0;
+        font-size: 20px;
+        color: #fff;
+        padding: 0;
+    }
+
+    nav.menu>ul>li>a:hover {
+        color: #f4e12b;
+        margin-left: 3px;
+    }
+
+    .no-scroll {
+        overflow: hidden;
+    }
+
+    .menu-bar.change {
+        z-index: 100;
+    }
+
+    .menu-bar.change .bar1,
+    .menu-bar.change .bar2,
+    .menu-bar.change .bar3 {
+        background-color: #fff;
+    }
+
+    .nav-right {
+        width: auto;
+    }
+
+.top_footer {
+    padding: 30px 0;
+}
+
+.foo-col-1 p{ padding-right: 0; }
+#footer h6 {
+    font-size: 16px;
+    line-height: 20px;
+}
+.sub-menu li a{
+    color: #fff;
+}
+.testimonial-box{
+    padding: 10px;
+}
+.pro_pic{
+    margin: -54px auto 0;
+}
+.testimonial-box h4 {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 18px;
+}
+.testimonial-box p {
+    font-size: 12px;
+    color: #858788;
+}
+
+}
+
+
+
+
+@media(max-width: 767px){
+
+h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+h3 {
+    font-size:18px;
+    line-height:20px;
+}
+h4 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.top-header{ display: none; }
+.logo img {
+    width: 130px;
+}
+.wrapper {
+    padding-top: 57px;
+}
+
+#footer h6 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.foo-col-1 p br {
+    display: none;
+}
+.logo {
+    width: 70px;
+}
+#header.schrink .logo {
+    width: 70px;
+}
+.btn {
+    font-size: 12px;
+    padding: 8px 10px;
+}
+.price {
+    font-size: 14px;
+}
+.mob-col {
+    padding-left: 15px;
+    border-left: none;
+    width: 50%;
+}
+
+}
