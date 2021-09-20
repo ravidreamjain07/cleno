@@ -147,6 +147,18 @@ $('.owl-carousel.instafeed-slider').owlCarousel({
     
 })
 
+$('.owl-carousel#producSlider').owlCarousel({
+    items: 1,
+    loop: false,
+    center: true,
+    margin: 0,
+    dots: false,
+    callbacks: true,
+    URLhashListener: true,
+    autoplayHoverPause: true,
+    startPosition: 'URLHash'
+});
+
 
 });
 
