@@ -85,7 +85,7 @@ h2 {
 h3 {
     font-size: 24px;
     font-weight: 700;
-    line-height: 45px;
+    line-height: 30px;
 }
 h4 {
     font-size: 18px;
@@ -636,5 +636,226 @@ ul.foo-social li a:hover {
 
 /*manage address page css end*/
 
+/*product page css start*/
+
+.owl-carousel-box {
+    background: #f5fafd;
+    border-radius: 6px;
+    padding-bottom: 30px;
+    border: 1px solid #efefef;
+}
 
 
+#producSlider {
+    width:100%;
+    padding-bottom: 10px;
+    padding: 70px 0;
+}
+
+#producSlider .item img{
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.thumb{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 81px;
+    overflow: auto;
+
+}
+.thumb .button {
+    width: 81px;
+    height: 81px;
+    overflow: hidden;
+    padding: 8px;
+    margin: 0 5px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #fff;
+}
+.thumb .button:hover{
+    border: 1px solid #d7ad61;
+}
+.productdetails-box h2, .productdetails-box h2 a {
+    display: block;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.productdetails-box h2 a:hover{
+    color:#f0da0b;
+}
+
+.form-control:focus{
+    -webkit-outline: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #FFE2AD;
+}
+ul.qty_input {
+    display: flex;
+    max-width: 140px;
+    margin-bottom: 20px;
+}
+ul.qty_input li button {
+    background: #fff;
+    font-size: 19px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ccc;
+}
+ul.qty_input input[type="text"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    height: 40px;
+    text-align: center;
+}
+ul.qty_input li:first-child button{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+ul.qty_input li:last-child button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.wheretouse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    background: #fff;
+    font-weight: 700;
+}
+
+.tab-sec .nav-tabs {
+    border-bottom: none;
+    margin-bottom: 0;
+    background: #2b3046;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.tab-sec .nav-tabs .nav-item {
+    margin-bottom: 0;
+}
+.tab-sec .nav-tabs .nav-link {
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0;
+}
+.tab-sec .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color:transparent;
+    border-bottom: 1px solid #e5d541;
+}
+.tab_box {
+    padding: 20px 0;
+}
+.tab_box ul {
+    padding: 10px 0 0px 30px;
+    position: relative;
+}
+.tab_box ul::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 41px;
+    width: 2px;
+    height: 100%;
+    background: #f0da0b;
+}
+.tab_box ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    position: relative;
+    padding-left: 40px;
+}
+.tab_box ul li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../images/dots.jpg') no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+/*product page css end*/
+
+/*faq page css start*/
+
+.accord-box button {
+    width: 100%;
+    border: none;
+    background: #0d0d49;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.crd-body {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+
+/*faq page css end*/
+
+/*cart page css start*/
+
+.faq-sec .table-responsive {
+    max-height: 340px;
+    overflow: auto;
+}
+
+.faq-sec table td{
+    background: #fff;
+}
+.faq-sec table td img {
+    width: 60px;
+    margin: 0 auto;
+}
+.faq-sec table td{
+    vertical-align: middle;
+}
+.delete-btn{
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+.faq-sec table .qty_input button,
+.faq-sec table .qty_input input[type="text"] {
+    background: #0e0e4c;
+    color: #fff;
+
+}
+.offer-box {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.offer-box td {
+    padding: 10px 0;
+    border-top-style: dashed;
+}
+.total-box.offer-box td{
+    border: none;
+}
+/*cart page css end*/
